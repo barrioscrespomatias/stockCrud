@@ -1,0 +1,6 @@
+C:\Users\mati8\source\repos\crudMj\bin\Debug\crudMj.dll.config
+C:\Users\mati8\source\repos\crudMj\bin\Debug\crudMj.dll
+C:\Users\mati8\source\repos\crudMj\bin\Debug\crudMj.pdb
+C:\Users\mati8\source\repos\crudMj\obj\Debug\crudMj.csproj.CoreCompileInputs.cache
+C:\Users\mati8\source\repos\crudMj\obj\Debug\crudMj.dll
+C:\Users\mati8\source\repos\crudMj\obj\Debug\crudMj.pdb

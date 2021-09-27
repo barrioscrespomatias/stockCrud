@@ -1,0 +1,11 @@
+C:\Users\mati8\source\repos\crudMj\conexionDb\obj\Debug\conexionDb.csproj.AssemblyReference.cache
+C:\Users\mati8\source\repos\crudMj\conexionDb\obj\Debug\conexionDb.csproj.CoreCompileInputs.cache
+C:\Users\mati8\source\repos\crudMj\conexionDb\bin\Debug\conexionDb.dll.config
+C:\Users\mati8\source\repos\crudMj\conexionDb\bin\Debug\conexionDb.dll
+C:\Users\mati8\source\repos\crudMj\conexionDb\bin\Debug\conexionDb.pdb
+C:\Users\mati8\source\repos\crudMj\conexionDb\bin\Debug\crudMj.dll
+C:\Users\mati8\source\repos\crudMj\conexionDb\bin\Debug\crudMj.pdb
+C:\Users\mati8\source\repos\crudMj\conexionDb\bin\Debug\crudMj.dll.config
+C:\Users\mati8\source\repos\crudMj\conexionDb\obj\Debug\conexionDb.csproj.CopyComplete
+C:\Users\mati8\source\repos\crudMj\conexionDb\obj\Debug\conexionDb.dll
+C:\Users\mati8\source\repos\crudMj\conexionDb\obj\Debug\conexionDb.pdb

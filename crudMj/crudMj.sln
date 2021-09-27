@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "crudMj", "crudMj.csproj", "{DEA831FB-9485-464B-95E9-3524FCEF2EE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "conexionDb", "conexionDb\conexionDb.csproj", "{31F73A8F-984E-45DF-BEB9-AF507FD79367}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "formularios", "formularios\formularios.csproj", "{E7B6BAB4-8AA4-4D4A-ACBB-91D33FDC5E78}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DEA831FB-9485-464B-95E9-3524FCEF2EE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEA831FB-9485-464B-95E9-3524FCEF2EE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEA831FB-9485-464B-95E9-3524FCEF2EE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEA831FB-9485-464B-95E9-3524FCEF2EE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31F73A8F-984E-45DF-BEB9-AF507FD79367}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31F73A8F-984E-45DF-BEB9-AF507FD79367}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31F73A8F-984E-45DF-BEB9-AF507FD79367}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31F73A8F-984E-45DF-BEB9-AF507FD79367}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7B6BAB4-8AA4-4D4A-ACBB-91D33FDC5E78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7B6BAB4-8AA4-4D4A-ACBB-91D33FDC5E78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7B6BAB4-8AA4-4D4A-ACBB-91D33FDC5E78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7B6BAB4-8AA4-4D4A-ACBB-91D33FDC5E78}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DDF6C522-9D51-48B7-A3D2-DA96DE87800B}
+	EndGlobalSection
+EndGlobal
