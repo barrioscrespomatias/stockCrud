@@ -117,8 +117,20 @@ namespace formularios
             this.dataGridView.Columns.Clear();
             this.ConfigurarDataTable();
 
-            VincularDb db = GenerarConexionDb();
-            this.manejadora.listaProductos = db.ObtenerListado();
+            try
+            {
+                VincularDb db = GenerarConexionDb();
+                this.manejadora.listaProductos = db.ObtenerListado();
+            }
+            catch(Exception)
+            {
+                this.btnAgregar.Enabled = false;
+                this.btnModificar.Enabled = false;
+                this.btnEliminar.Enabled = false;
+                MessageBox.Show("No se ha podido conectar con la base de datos");
+            }
+
+            
 
             foreach (Producto aux in this.manejadora.listaProductos)
             {
