@@ -38,7 +38,7 @@ namespace crudMj
         public static bool operator == (Producto p1, Producto p2)
         {
             bool retorno = false;
-            if (p1.nombre == p2.nombre && p1.descripcion == p2.descripcion)
+            if (p1.Equals(p2))
                 retorno = true;
             return retorno;
         }
@@ -50,9 +50,10 @@ namespace crudMj
 
         public override bool Equals(object obj)
         {
+            
             bool retorno = false;
             if (obj is Producto)
-                retorno = this.nombre == ((Producto)obj).nombre && this.id == ((Producto)obj).id;
+                retorno = this.nombre == ((Producto)obj).nombre && this.descripcion == ((Producto)obj).descripcion;
             return retorno;
         }
 
