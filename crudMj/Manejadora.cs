@@ -29,5 +29,26 @@ namespace crudMj
             }
             return aux;            
         }
+
+        public static bool operator == (Manejadora manejadora, Producto nuevoProducto)
+        {
+            bool retorno = false;            
+
+            foreach(Producto productoExistente in manejadora.listaProductos)
+            {
+                if(productoExistente == nuevoProducto)
+                {
+                    retorno = true;
+                    break;
+                }
+            }
+            
+            return retorno;
+        }
+
+        public static bool operator !=(Manejadora manejadora, Producto nuevoProducto)
+        {
+            return !(manejadora == nuevoProducto);
+        }
     }
 }

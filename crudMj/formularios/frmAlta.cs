@@ -28,16 +28,29 @@ namespace formularios
             int cantidad = int.Parse(this.txtCantidad.Text);
 
             Producto nuevoProducto = new Producto(nombre, descripcion, cantidad);
-            VincularDb db =  frmPrincipal.GenerarConexionDb();
-            bool agregado =  db.Agregar(nuevoProducto);
+            VincularDb db = frmPrincipal.GenerarConexionDb();
 
-            if (agregado)
-                MessageBox.Show("Se ha agregado a la base de datos!");
+            Manejadora manejadora = new Manejadora();
+            manejadora.listaProductos = db.ObtenerListado();
+
+            bool existe = manejadora == nuevoProducto;
+
+            if(existe)
+            {
+                MessageBox.Show("Ya existe un producto con ese nombre en la base de datos");
+            }
             else
-                MessageBox.Show("Se no se ha podido agregar a la base de datos.");
-            this.Close();
+            {
+                bool agregado = db.Agregar(nuevoProducto);
 
+                if (agregado)
+                    MessageBox.Show("Se ha agregado a la base de datos!");
+                else
+                    MessageBox.Show("Se no se ha podido agregar a la base de datos.");
+
+                this.Close();
+
+            }
         }
-
     }
 }

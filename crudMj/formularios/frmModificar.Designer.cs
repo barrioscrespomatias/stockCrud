@@ -32,6 +32,14 @@ namespace formularios
             this.btnModificar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
+            // txtNombre
+            // 
+            this.txtNombre.ReadOnly = true;
+            // 
+            // txtDescripcion
+            // 
+            this.txtDescripcion.ReadOnly = true;
+            // 
             // btnModificar
             // 
             this.btnModificar.Location = new System.Drawing.Point(36, 167);

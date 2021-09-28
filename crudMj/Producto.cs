@@ -38,7 +38,7 @@ namespace crudMj
         public static bool operator == (Producto p1, Producto p2)
         {
             bool retorno = false;
-            if (p1.nombre == p2.nombre && p1.id == p2.id)
+            if (p1.nombre == p2.nombre && p1.descripcion == p2.descripcion)
                 retorno = true;
             return retorno;
         }
